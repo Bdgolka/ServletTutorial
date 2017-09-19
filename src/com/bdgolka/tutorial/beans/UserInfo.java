@@ -2,11 +2,11 @@ package com.bdgolka.tutorial.beans;
 
 public class UserInfo {
 
-	public String userName;
+	private String userName;
 	private int post;
 	private String contry;
 
-	public UserInfo(String userName, int post, String contry) {
+	public UserInfo(String userName, String contry, int post) {
 		this.userName = userName;
 		this.post = post;
 		this.contry = contry;
